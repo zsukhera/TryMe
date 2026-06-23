@@ -1,2 +1,0 @@
-# TryMe
-a ragebait game
