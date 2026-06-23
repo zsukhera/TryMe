@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 413986c4a668c374d8de72a47621b531
+guid: 2fa52cbe89e33ef479ae5f5c7f8da29e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -53,7 +53,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: 1
+  spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -63,16 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -85,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -98,7 +98,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,114 +109,11 @@ TextureImporter:
   spriteSheet:
     serializedVersion: 2
     sprites: []
-    outline:
-    - - {x: -96, y: -38}
-      - {x: -176, y: -38}
-      - {x: -176, y: -88}
-      - {x: -125, y: -88}
-      - {x: -96, y: -74}
-      - {x: -94, y: -72}
-      - {x: -94, y: -40}
-    - - {x: 0, y: -38}
-      - {x: -80, y: -38}
-      - {x: -82, y: -40}
-      - {x: -82, y: -88}
-      - {x: -27, y: -88}
-      - {x: 2, y: -73}
-      - {x: 2, y: -40}
-    - - {x: 14, y: -40}
-      - {x: 14, y: -72}
-      - {x: 30, y: -88}
-      - {x: 82, y: -88}
-      - {x: 82, y: -40}
-      - {x: 80, y: -38}
-      - {x: 16, y: -38}
-    - - {x: 94, y: -40}
-      - {x: 94, y: -72}
-      - {x: 110, y: -88}
-      - {x: 162, y: -88}
-      - {x: 162, y: -40}
-      - {x: 160, y: -38}
-      - {x: 96, y: -38}
-    - - {x: -94, y: 24}
-      - {x: -96, y: 26}
-      - {x: -176, y: 26}
-      - {x: -176, y: -26}
-      - {x: -128, y: -26}
-      - {x: -126, y: -24}
-      - {x: -96, y: -10}
-      - {x: -94, y: -8}
-    - - {x: 2, y: 24}
-      - {x: 0, y: 26}
-      - {x: -80, y: 26}
-      - {x: -82, y: 24}
-      - {x: -82, y: -24}
-      - {x: -80, y: -26}
-      - {x: -32, y: -26}
-      - {x: -30, y: -24}
-      - {x: 0, y: -10}
-      - {x: 2, y: -8}
-    - - {x: 16, y: 26}
-      - {x: 14, y: 24}
-      - {x: 14, y: -8}
-      - {x: 32, y: -26}
-      - {x: 80, y: -26}
-      - {x: 82, y: -24}
-      - {x: 82, y: 24}
-      - {x: 80, y: 26}
-    - - {x: 94, y: 24}
-      - {x: 94, y: -24}
-      - {x: 96, y: -26}
-      - {x: 171, y: -26}
-      - {x: 176, y: -12}
-      - {x: 176, y: 26}
-      - {x: 96, y: 26}
-    - - {x: -176, y: 88}
-      - {x: -176, y: 38}
-      - {x: -128, y: 38}
-      - {x: -94, y: 55}
-      - {x: -94, y: 88}
-    - - {x: 2, y: 88}
-      - {x: -82, y: 88}
-      - {x: -82, y: 40}
-      - {x: -80, y: 38}
-      - {x: -32, y: 38}
-      - {x: -30, y: 40}
-      - {x: 0, y: 54}
-      - {x: 2, y: 56}
-    - - {x: 14, y: 52}
-      - {x: 25, y: 38}
-      - {x: 82, y: 38}
-      - {x: 82, y: 88}
-      - {x: 14, y: 88}
-    - - {x: 97, y: 58}
-      - {x: 94, y: 55}
-      - {x: 94, y: 52}
-      - {x: 97, y: 49}
-      - {x: 143, y: 49}
-      - {x: 146, y: 52}
-      - {x: 146, y: 55}
-      - {x: 143, y: 58}
-    - - {x: 97, y: 74}
-      - {x: 94, y: 71}
-      - {x: 94, y: 68}
-      - {x: 97, y: 65}
-      - {x: 143, y: 65}
-      - {x: 146, y: 68}
-      - {x: 146, y: 71}
-      - {x: 143, y: 74}
-    - - {x: 94, y: 88}
-      - {x: 94, y: 81}
-      - {x: 146, y: 81}
-      - {x: 146, y: 88}
-    - - {x: -63, y: -23}
-      - {x: -63, y: 23}
-      - {x: -48, y: 23}
-      - {x: -48, y: -23}
+    outline: []
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
