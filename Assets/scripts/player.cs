@@ -8,10 +8,10 @@ public class player : MonoBehaviour
     public float sprintMultiplier = 2f;
     public float jumpForce = 7f;
 
-    public bool isGrounded = false;
+    public bool isGrounded = true;
     public bool isSprinting = false;
     public bool isJumping = false;
-
+    public bool isDead = false;
     private Rigidbody2D rb;
     private Animator animator;
 
@@ -26,6 +26,34 @@ public class player : MonoBehaviour
         Move();
         Jump();
         UpdateAnimations();
+    }
+
+    //plays the isdead animation
+    void playDead()
+    {
+        if(isDead)
+        {
+            animator.SetBool("isDead", true);
+        }
+    }
+
+    //shall be called from animation
+    public void cleanup()
+    {
+        // Stop movement
+        rb.velocity = Vector2.zero;
+
+        // Disable physics
+        rb.simulated = false;
+
+        // Disable collisions
+        GetComponent<Collider2D>().enabled = false;
+
+        // Disable this script
+        enabled = false;
+
+        // Optionally hide the player immediately
+        gameObject.SetActive(false);
     }
 
     void Move()
@@ -71,6 +99,8 @@ public class player : MonoBehaviour
     {
         animator.SetBool("isMoving", Mathf.Abs(rb.velocity.x) > 0.1f);
         animator.SetBool("isGrounded", isGrounded);
+        if(isDead)
+            playDead();
     }
 
     void OnCollisionEnter2D(Collision2D collision)
