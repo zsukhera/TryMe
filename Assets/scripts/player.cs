@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class player : MonoBehaviour
 {
+    //game over screen
+    public GameObject gameoverScreen;
+
     public float movementSpeed = 15f;
     public float sprintMultiplier = 2f;
     public float jumpForce = 7f;
@@ -21,11 +24,12 @@ public class player : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         Move();
         Jump();
         UpdateAnimations();
+        Attack();
     }
 
     //plays the isdead animation
@@ -36,6 +40,17 @@ public class player : MonoBehaviour
             animator.SetBool("isDead", true);
         }
     }
+
+    void Attack()
+    {
+        if (isDead) return;
+
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            animator.SetTrigger("attack");
+        }
+    }
+
 
     //shall be called from animation
     public void cleanup()
@@ -54,6 +69,9 @@ public class player : MonoBehaviour
 
         // Optionally hide the player immediately
         gameObject.SetActive(false);
+
+        //the gameover screen will be set
+        gameoverScreen.SetActive(true);
     }
 
     void Move()
