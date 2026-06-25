@@ -5,10 +5,11 @@ using UnityEngine;
 public class endpoint : MonoBehaviour
 {
     public GameObject nextLevelScreen;
+    public GameObject audioManager;
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioManager = GameObject.Find("audioManager");   
     }
 
     // Update is called once per frame
@@ -25,6 +26,7 @@ public class endpoint : MonoBehaviour
             Rigidbody2D rb = collision.GetComponent<Rigidbody2D>();
             rb.velocity = Vector2.zero;
             rb.constraints = RigidbodyConstraints2D.FreezeAll;
+            audioManager.GetComponent<audioScript>().PlayNextLevelSound();
         }
     }
 }

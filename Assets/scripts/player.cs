@@ -18,13 +18,18 @@ public class player : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
 
+    //audio manager
+    public GameObject audiomanager;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        audiomanager = GameObject.Find("audioManager");
+        if (!audiomanager)
+            Debug.Log("no audio manager, received by the player");
     }
 
-    void FixedUpdate()
+    void Update()
     {
         Move();
         Jump();
@@ -110,6 +115,7 @@ public class player : MonoBehaviour
             animator.SetBool("isMoving", false);
             isGrounded = false;
             isJumping = true;
+            audiomanager.GetComponent<audioScript>().PlayJumpSound();
         }
     }
 
