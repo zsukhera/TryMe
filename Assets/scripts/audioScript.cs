@@ -10,7 +10,7 @@ public class audioScript : MonoBehaviour
     public AudioClip gameOverSound;
     public AudioClip nextLevelSound;
     public AudioClip playerFalling;
-
+    public AudioClip playerDeath;
     private AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
@@ -27,14 +27,14 @@ public class audioScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void PlayJumpSound()
     {
         audioSource.PlayOneShot(jumpSound);
     }
-    
+
     public void PlayGameOverSound()
     {
         audioSource.PlayOneShot(gameOverSound, 0.5f);
@@ -44,14 +44,13 @@ public class audioScript : MonoBehaviour
     {
         audioSource.PlayOneShot(nextLevelSound);
     }
-    /*
-     * 
-     * 
-        audioSource.PlayOneShot(gameOverClip, 0.2f); // 20% volume
-        audioSource.PlayOneShot(fallingClip, 0.5f);  // 50% volume
-     */
     public void playFallingsound()
     {
         audioSource.PlayOneShot(playerFalling);
+    }
+
+    public void playDeathSound()
+    {
+        audioSource.PlayOneShot(playerDeath);
     }
 }

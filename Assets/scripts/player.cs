@@ -83,7 +83,7 @@ public class player : MonoBehaviour
     {
         float moveInput = Input.GetAxisRaw("Horizontal");
 
-        isSprinting = Input.GetKey(KeyCode.LeftShift);
+        //isSprinting = Input.GetKey(KeyCode.LeftShift);
 
         float speed = movementSpeed;
 
@@ -133,6 +133,14 @@ public class player : MonoBehaviour
         {
             isGrounded = true;
             isJumping = false;
+        }
+
+        if(collision.gameObject.CompareTag("trap"))
+        {
+            isDead = true;
+            audiomanager.GetComponent<audioScript>().playDeathSound();
+            audiomanager.GetComponent<audioScript>().PlayGameOverSound();
+
         }
     }
 
