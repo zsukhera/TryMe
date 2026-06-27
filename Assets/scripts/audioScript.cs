@@ -32,7 +32,7 @@ public class audioScript : MonoBehaviour
 
     public void PlayJumpSound()
     {
-        audioSource.PlayOneShot(jumpSound);
+        audioSource.PlayOneShot(jumpSound, 0.5f);
     }
 
     public void PlayGameOverSound()
