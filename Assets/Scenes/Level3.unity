@@ -542,7 +542,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &138877533
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1574,7 +1574,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.11, y: 0, z: -10}
+  m_LocalPosition: {x: -5.36, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1819,14 +1819,14 @@ RectTransform:
   m_GameObject: {fileID: 559454189}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.09057971, y: 0.08160334, z: 0.09057971}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.080613226, y: 0.07262453, z: 0.080613226}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 138877533}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000038146973, y: -0.3}
+  m_AnchoredPosition: {x: -2.7, y: -0.3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &559454191
@@ -1849,7 +1849,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Stage Completed
+  m_text: I have run out of ways to mess with you.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a9b74d6ead07ea84085772dbbbe78d5e, type: 2}
   m_sharedMaterial: {fileID: -9031939228873938832, guid: a9b74d6ead07ea84085772dbbbe78d5e, type: 2}
@@ -2395,14 +2395,14 @@ RectTransform:
   m_GameObject: {fileID: 780864005}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.09057971, y: 0.08160334, z: 0.09057971}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.080613226, y: 0.07262453, z: 0.080613226}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 138877533}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000038146973, y: 0}
+  m_AnchoredPosition: {x: -2.5, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &780864007
@@ -2425,7 +2425,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Stage Completed
+  m_text: I have run out of ways to mess with you.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a9b74d6ead07ea84085772dbbbe78d5e, type: 2}
   m_sharedMaterial: {fileID: -9031939228873938832, guid: a9b74d6ead07ea84085772dbbbe78d5e, type: 2}
@@ -34002,7 +34002,7 @@ Transform:
   m_GameObject: {fileID: 1350581099}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.57, y: -1.9, z: -0.011503063}
+  m_LocalPosition: {x: -6.5, y: -1.5, z: -0.011503063}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -35444,7 +35444,7 @@ RectTransform:
   m_GameObject: {fileID: 1674594883}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.17, y: 0.17, z: 0.17}
+  m_LocalScale: {x: 0.1785, y: 0.1785, z: 0.1785}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1405777158}
