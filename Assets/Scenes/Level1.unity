@@ -2125,7 +2125,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1334502723}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 132365767}
+        m_TargetAssemblyTypeName: sceneManager, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1334502723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3361,6 +3373,7 @@ MonoBehaviour:
   gameOverSound: {fileID: 8300000, guid: 58dc0662e73c7754a9f2c11e9fa1cadb, type: 3}
   nextLevelSound: {fileID: 8300000, guid: 7ad3d08a323f6b8489f7f90dd3a8c6f5, type: 3}
   playerFalling: {fileID: 8300000, guid: ccc300c0c8368864796fad2b613e9912, type: 3}
+  playerDeath: {fileID: 0}
 --- !u!1 &1991567643
 GameObject:
   m_ObjectHideFlags: 0
@@ -3883,11 +3896,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1005437389588024760, guid: a855cec5f8fdf0a4b8b401a6e2a5adb7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.21
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1005437389588024760, guid: a855cec5f8fdf0a4b8b401a6e2a5adb7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.755
+      value: -1.05
       objectReference: {fileID: 0}
     - target: {fileID: 1005437389588024760, guid: a855cec5f8fdf0a4b8b401a6e2a5adb7, type: 3}
       propertyPath: m_LocalPosition.z

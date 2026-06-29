@@ -140,7 +140,6 @@ public class player : MonoBehaviour
             isDead = true;
             audiomanager.GetComponent<audioScript>().playDeathSound();
             audiomanager.GetComponent<audioScript>().PlayGameOverSound();
-
         }
     }
 
