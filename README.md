@@ -64,4 +64,4 @@ Reach the exit of each level while avoiding hidden traps and surviving the game'
 
 This project is for educational and portfolio purposes.
 
-Inspired by *Level Devil*. All original assets and trademarks belong to their respective owners.
+All original assets and trademarks belong to their respective owners.
