@@ -1,4 +1,5 @@
-# Try Me - Sukhera June 2026
+# Try Me 
+### Zain Sukhera June 2026
 
 A ragebait platformer, built with **Unity**.
 
