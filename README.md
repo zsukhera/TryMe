@@ -1,9 +1,9 @@
-# TryMe
+# TryMe - Sukhera June 2026
 
 A ragebait platformer, built with **Unity**.
 
 Prepare for unexpected traps, fake-out platforms, and moments designed to test your patience. Every level is meant to keep you guessing, so don't trust what you see!
-Z.A.Sukhera June 2026
+
 ---
 
 ## 🎮 Features
