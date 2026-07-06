@@ -130,6 +130,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1573172229}
     m_Modifications:
+    - target: {fileID: 289398809582196850, guid: f6632b6198500474a8de78d949c05e3e, type: 3}
+      propertyPath: m_Size.x
+      value: 7.6371145
+      objectReference: {fileID: 0}
+    - target: {fileID: 289398809582196850, guid: f6632b6198500474a8de78d949c05e3e, type: 3}
+      propertyPath: m_Offset.x
+      value: -5.172218
+      objectReference: {fileID: 0}
     - target: {fileID: 3884221162610212009, guid: f6632b6198500474a8de78d949c05e3e, type: 3}
       propertyPath: m_Name
       value: safeGround (1)
@@ -2457,7 +2465,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.044054985, y: 0.6648332}
+  m_Offset: {x: 0.024123192, y: 0.6648332}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -2468,7 +2476,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7356682, y: 1.1922412}
+  m_Size: {x: 0.27723503, y: 1.1922412}
   m_EdgeRadius: 0
 --- !u!95 &1350581104
 Animator:

@@ -2744,9 +2744,9 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 729636428}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8974f6cb8cf1def4498a6cab417d4478, type: 3}
+  m_Script: {fileID: 11500000, guid: cf85dc3b7dc78bf47b5250c4ede0ca57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &732208192 stripped
@@ -19941,13 +19941,14 @@ GameObject:
   - component: {fileID: 1290133639}
   - component: {fileID: 1290133640}
   - component: {fileID: 1290133641}
+  - component: {fileID: 1290133642}
   m_Layer: 0
   m_Name: platform (1)
   m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1290133635
 Animator:
   serializedVersion: 5
@@ -20119,6 +20120,18 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8974f6cb8cf1def4498a6cab417d4478, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1290133642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290133634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf85dc3b7dc78bf47b5250c4ede0ca57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1307520338
@@ -20617,7 +20630,7 @@ Transform:
   m_GameObject: {fileID: 1350581099}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.52, y: 6.414, z: -0.011503063}
+  m_LocalPosition: {x: -6.2, y: -1.65, z: -0.011503063}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20769,7 +20782,7 @@ CapsuleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1350581099}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 2856296fdc051fb48815c7edcf0be7c5, type: 2}
   m_IncludeLayers:
@@ -20822,7 +20835,7 @@ Transform:
   m_GameObject: {fileID: 1391708096}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.12, y: 3.2, z: 0}
+  m_LocalPosition: {x: 2.12, y: 6.42, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
