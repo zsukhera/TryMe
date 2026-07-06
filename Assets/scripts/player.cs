@@ -22,6 +22,7 @@ public class player : MonoBehaviour
     public GameObject audiomanager;
     void Start()
     {
+        isGrounded = true;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         audiomanager = GameObject.Find("audioManager");
@@ -57,7 +58,6 @@ public class player : MonoBehaviour
     }
 
 
-    //shall be called from animation
     public void cleanup()
     {
         // Stop movement
@@ -142,6 +142,7 @@ public class player : MonoBehaviour
             audiomanager.GetComponent<audioScript>().PlayGameOverSound();
         }
     }
+
 
     void OnCollisionExit2D(Collision2D collision)
     {

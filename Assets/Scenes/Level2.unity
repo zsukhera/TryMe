@@ -2744,7 +2744,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 729636428}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8974f6cb8cf1def4498a6cab417d4478, type: 3}
   m_Name: 
@@ -19717,6 +19717,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1241628738}
   - component: {fileID: 1241628739}
+  - component: {fileID: 1241628740}
   m_Layer: 0
   m_Name: wall (1)
   m_TagString: ground
@@ -19784,6 +19785,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.475996, y: 9.02153}
   m_EdgeRadius: 0
+--- !u!114 &1241628740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241628737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf85dc3b7dc78bf47b5250c4ede0ca57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1241996658
 GameObject:
   m_ObjectHideFlags: 0
@@ -20103,7 +20116,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290133634}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8974f6cb8cf1def4498a6cab417d4478, type: 3}
   m_Name: 
@@ -20118,11 +20131,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 289398809582196850, guid: f6632b6198500474a8de78d949c05e3e, type: 3}
       propertyPath: m_Size.x
-      value: 4.7377763
+      value: 4.737776
+      objectReference: {fileID: 0}
+    - target: {fileID: 289398809582196850, guid: f6632b6198500474a8de78d949c05e3e, type: 3}
+      propertyPath: m_Size.y
+      value: 2.964633
       objectReference: {fileID: 0}
     - target: {fileID: 289398809582196850, guid: f6632b6198500474a8de78d949c05e3e, type: 3}
       propertyPath: m_Offset.x
       value: -7.991967
+      objectReference: {fileID: 0}
+    - target: {fileID: 289398809582196850, guid: f6632b6198500474a8de78d949c05e3e, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.8552122
       objectReference: {fileID: 0}
     - target: {fileID: 3884221162610212009, guid: f6632b6198500474a8de78d949c05e3e, type: 3}
       propertyPath: m_Name
@@ -20596,7 +20617,7 @@ Transform:
   m_GameObject: {fileID: 1350581099}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.18, y: -0.92, z: -0.011503063}
+  m_LocalPosition: {x: 10.52, y: 6.414, z: -0.011503063}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20686,7 +20707,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.027107239, y: 0.5897794}
+  m_Offset: {x: 0.027107239, y: 0.54790926}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -20697,7 +20718,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.31439877, y: 0.84844637}
+  m_Size: {x: 0.31439877, y: 0.9321866}
   m_EdgeRadius: 0
 --- !u!95 &1350581104
 Animator:
@@ -20773,8 +20794,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.01894021, y: 0.6251701}
-  m_Size: {x: 0.44884062, y: 1.086767}
+  m_Offset: {x: 0.01894021, y: 0.66936636}
+  m_Size: {x: 0.44884062, y: 0.99837446}
   m_Direction: 0
 --- !u!1 &1391708096
 GameObject:
@@ -23645,7 +23666,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 866463966336248194, guid: 39b9333a642e22f4da61a9f2bb94e759, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2.7058823
+      value: 2.875
       objectReference: {fileID: 0}
     - target: {fileID: 2264280164260110215, guid: 39b9333a642e22f4da61a9f2bb94e759, type: 3}
       propertyPath: m_Icon
@@ -23754,6 +23775,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1972501161088547018, guid: f5010b90e763ce249a5655a5d550f972, type: 3}
+      propertyPath: m_Constraints
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2581333787806801679, guid: f5010b90e763ce249a5655a5d550f972, type: 3}
       propertyPath: m_Name
       value: sawTrap1
@@ -23949,14 +23974,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1573172229}
     m_Modifications:
-    - target: {fileID: 289398809582196850, guid: f6632b6198500474a8de78d949c05e3e, type: 3}
-      propertyPath: m_Size.x
-      value: 16.126263
-      objectReference: {fileID: 0}
-    - target: {fileID: 289398809582196850, guid: f6632b6198500474a8de78d949c05e3e, type: 3}
-      propertyPath: m_Offset.x
-      value: -9.416792
-      objectReference: {fileID: 0}
     - target: {fileID: 3884221162610212009, guid: f6632b6198500474a8de78d949c05e3e, type: 3}
       propertyPath: m_Name
       value: safeGround
