@@ -16,7 +16,7 @@ public class setGroundedStatus : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.CompareTag("Player"))
         {
@@ -25,7 +25,7 @@ public class setGroundedStatus : MonoBehaviour
         }
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
+    public void OnCollisionExit2D(Collision2D collision)
     {
         if(collision.gameObject.CompareTag("Player"))
         {
