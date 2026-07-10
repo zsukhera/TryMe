@@ -21,6 +21,7 @@ public class setGroundedStatus : MonoBehaviour
         if(collision.gameObject.CompareTag("Player"))
         {
             GameObject player = collision.gameObject;
+            Debug.Log("setting (1) the player grounded status - setGroundedStatus");
             player.GetComponent<player>().isGrounded = true;
         }
     }
@@ -31,6 +32,7 @@ public class setGroundedStatus : MonoBehaviour
         {
             GameObject player = collision.gameObject;
             player.GetComponent<player>().isGrounded = false;
+            Debug.Log("setting (0) the player grounded status - setGroundedStatus");
         }
     }
 }
