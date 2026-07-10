@@ -30,7 +30,7 @@ public class setGroundedStatus : MonoBehaviour
         if(collision.gameObject.CompareTag("Player"))
         {
             GameObject player = collision.gameObject;
-            player.GetComponent<player>().isGrounded = true;
+            player.GetComponent<player>().isGrounded = false;
         }
     }
 }
