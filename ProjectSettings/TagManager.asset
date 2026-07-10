@@ -8,6 +8,7 @@ TagManager:
   - gameOverScreen
   - nextLevelScreen
   - trap
+  - barycentre
   layers:
   - Default
   - TransparentFX

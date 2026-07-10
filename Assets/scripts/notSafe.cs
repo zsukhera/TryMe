@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class notSafe : MonoBehaviour
 {
-    public float moveSpeed = 1f;
-    public float moveDistance = 3f; // Set in Inspector
+    public float moveSpeed = 10f;
+    public float moveDistance = 13f; // Set in Inspector
 
     private bool isMoving = false;
     private Vector3 targetPosition;
