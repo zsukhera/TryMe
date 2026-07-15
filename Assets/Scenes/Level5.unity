@@ -912,11 +912,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 489801838462612912, guid: d15399ce520614844879ebfdc1deaea9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 77.41
+      value: 77.6
       objectReference: {fileID: 0}
     - target: {fileID: 489801838462612912, guid: d15399ce520614844879ebfdc1deaea9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -24.69
+      value: -25.48
       objectReference: {fileID: 0}
     - target: {fileID: 489801838462612912, guid: d15399ce520614844879ebfdc1deaea9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -125898,7 +125898,7 @@ MonoBehaviour:
   waypoints:
   - {fileID: 231415784}
   - {fileID: 1053476381}
-  speed: 8
+  speed: 5
 --- !u!4 &1290133638
 Transform:
   m_ObjectHideFlags: 0

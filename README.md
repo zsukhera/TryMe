@@ -10,7 +10,7 @@ Prepare for unexpected traps, fake-out platforms, and moments designed to test y
 ## 🎮 Features
 
 - ⚠️ Hidden traps and unexpected obstacles
-- 🧩 3 handcrafted levels
+- 🧩 5 handcrafted levels
 - 🎨 Built using the Unity Engine
 ---
 
